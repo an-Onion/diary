@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:md": "lint-md '**/*.md' --fix"
+  },
+  "devDependencies": {
+    "@eslint/markdown": "^6",
+    "eslint": "^9",
+    "prettier": "^3"
+  },
+  "dependencies": {
+    "@lint-md/cli": "^2.0.0"
+  }
+}

@@ -2,11 +2,13 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "lint:md": "lint-md '**/*.md' --fix"
+    "lint:md": "lint-md '**/*.md' --fix",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/markdown": "^6",
     "eslint": "^9",
+    "husky": "^9.1.7",
     "prettier": "^3"
   },
   "dependencies": {

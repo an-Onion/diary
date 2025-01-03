@@ -9,9 +9,15 @@
     "@eslint/markdown": "^6",
     "eslint": "^9",
     "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "prettier": "^3"
   },
   "dependencies": {
     "@lint-md/cli": "^2.0.0"
+  },
+  "lint-staged": {
+    "*.{md}": [
+      "lint:md"
+    ]
   }
 }

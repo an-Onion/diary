@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "*.{md}": [
-      "lint:md"
+      "lint-md --fix"
     ]
   }
 }

@@ -16,7 +16,7 @@
     "@lint-md/cli": "^2.0.0"
   },
   "lint-staged": {
-    "*.{md}": [
+    "*.md": [
       "lint-md --fix"
     ]
   }

@@ -6,8 +6,8 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@eslint/markdown": "^6",
-    "eslint": "^9",
+    "@eslint/markdown": "^7",
+    "eslint": "^10",
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
     "prettier": "^3"
